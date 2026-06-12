@@ -4,7 +4,7 @@
 This project automatically sends me an email if my AWS spending goes above $10 in a month. No manual checking required. It runs on its own 24/7.
 
 ## Why I built this
-As someone learning AWS, it's easy to accidentally leave services running and get charged without knowing. This system gives me a safety net so I always know what's happening with my bill.
+As someone learning AWS, it is easy to accidentally leave services running and get charged without knowing. This system gives me a safety net so I always know what is happening with my bill.
 
 ## How it works
 1. **AWS Budgets** monitors my account spending every day
@@ -13,9 +13,9 @@ As someone learning AWS, it's easy to accidentally leave services running and ge
 4. I get an **email alert** instantly
 
 ## AWS services used
-- **AWS Budgets** — monitors spending and triggers the alert
-- **Amazon SNS (Simple Notification Service)** — receives the trigger and sends the notification
-- **Email subscription** — delivers the alert to my inbox
+- **AWS Budgets** monitors spending and triggers the alert
+- **Amazon SNS (Simple Notification Service)** receives the trigger and sends the notification
+- **Email subscription** delivers the alert to my inbox
 
 ## What I learned
 - How AWS Budgets connects to SNS using an ARN
